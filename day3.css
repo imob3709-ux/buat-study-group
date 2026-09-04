@@ -7,5 +7,37 @@ body{
 header{
     padding: 15px 15px; 
 }
-
+.Hero{
+    padding: 15px;
+    background-color: #1D4ED8;
+}
+.Hero-Text {
+    color: aliceblue;
+}
+.shopnow{
+    color:aliceblue;
+    width:183px;
+    height: 52px;
+    background-color: aliceblue;
+    border: 15px;
+    border-radius: 20px;
+}
+.beli{
+    width:273.35px;
+    height: 55.83px;
+    border: 5px;
+    border-color: blue;
+    border-radius: 15px;
+    background-color: blue;
+    color:aliceblue;
+    margin-bottom: 15px;
+}
+.card {
+    border: 0.96px solid gray;
+    width: 349.39px;
+    height: 378.55px;
+    margin: 15px 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
 
