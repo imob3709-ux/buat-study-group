@@ -32,6 +32,8 @@ header{
 
 .navbar{
     list-style: none;
+    padding: o;
+    margin: 0;
 }
 
 .navbar li {
@@ -44,6 +46,7 @@ header{
 
 .Hero{
     padding: 15px;
+
     background-color: #1D4ED8;
 }
 .Hero-Text {
@@ -51,7 +54,7 @@ header{
 }
 .tombol-belanja{
     display: inline-block;
-    color:rgb(66, 139, 204);
+    color: #1D4ED8;
     background-color: aliceblue;
     border-radius: 20px;
     padding: 12px 26px;
