@@ -1,12 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin : 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-header{
-    padding: 15px 15px; 
+img {
+    max-width: 100%;
 }
+
+header{
+    padding: 15px 23px; 
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    color: #1D4ED8;
+    margin-bottom: 12px;
+}
+
+.search input{
+     width: 100%;
+     padding: 10px 14px;
+     border: 1px solid #dddddd;
+     margin-bottom: 12px;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li {
+    padding: 4px 0;
+}
+.navbar a {
+ text-decoration: none;
+}
+
+
 .Hero{
     padding: 15px;
     background-color: #1D4ED8;
@@ -14,14 +49,20 @@ header{
 .Hero-Text {
     color: aliceblue;
 }
-.shopnow{
-    color:aliceblue;
-    width:183px;
-    height: 52px;
+.tombol-belanja{
+    display: inline-block;
+    color:rgb(66, 139, 204);
     background-color: aliceblue;
-    border: 15px;
     border-radius: 20px;
+    padding: 12px 26px;
+    text-decoration: none;
+    font-weight: 600;
 }
+
+.Hero-gambar{
+    margin-top: 28px;
+}
+
 .beli{
     width:273.35px;
     height: 55.83px;
