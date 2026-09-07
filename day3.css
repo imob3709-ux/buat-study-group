@@ -15,7 +15,6 @@ header{
 }
 
 .logo {
-    color: #1D4ED8;
     margin-bottom: 12px;
 }
 
@@ -61,7 +60,7 @@ header{
     margin-top: 28px;
 }
 
-.beli{
+.tombol-beli{
     width:273.35px;
     height: 55.83px;
     border: 5px;
