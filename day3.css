@@ -40,25 +40,43 @@ header{
 
 
 .Hero{
-    padding: 15px;
-
+    padding: 48px 15px;
+    color: aliceblue;
     background-color: #1D4ED8;
 }
-.Hero-Text {
-    color: aliceblue;
+
+.Hero-Text  h1 {
+    margin-bottom : 16px;
 }
+
+.Hero-Text p {
+    margin-bottom : 20px;
+}
+
+
 .tombol-belanja{
     color: #1D4ED8;
     background-color: aliceblue;
     border-radius: 20px;
     padding: 12px 26px;
     text-decoration: none;
-    font-weight: 600;
 }
 
 .Hero-gambar{
     margin-top: 28px;
 }
+
+
+.catalog {
+    padding : 40px 24px;
+    text-align : center;
+}
+
+.catalog h2 {
+    margin-bottom: 28px;
+}
+
+
 
 .tombol-beli{
     width:273.35px;
