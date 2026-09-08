@@ -1,0 +1,100 @@
+body{
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+header{
+    padding: 15px 23px; 
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.logo {
+    margin-bottom: 12px;
+}
+
+.search input{
+     width: 100%;
+     padding: 10px 14px;
+     border: 1px solid #dddddd;
+     margin-bottom: 12px;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 15px 0px;
+    margin: 15px 0px;
+    display: flex;
+}
+.navbar a {
+ text-decoration: none;
+}
+
+
+.Hero{
+    padding: 48px 15px;
+    color: aliceblue;
+    background-color: #1D4ED8;
+}
+
+.Hero-Text  h1 {
+    margin-bottom : 16px;
+}
+
+.Hero-Text p {
+    margin-bottom : 20px;
+}
+
+
+.tombol-belanja{
+    color: #1D4ED8;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 12px 26px;
+    text-decoration: none;
+}
+
+.Hero-gambar{
+    margin-top: 28px;
+}
+
+
+.catalog {
+    padding : 40px 24px;
+    text-align : center;
+}
+
+.catalog h2 {
+    margin-bottom: 28px;
+}
+
+
+
+.tombol-beli{
+    width:273.35px;
+    height: 55.83px;
+    border: 5px;
+    border-color: blue;
+    border-radius: 15px;
+    background-color: blue;
+    color:aliceblue;
+    margin-bottom: 15px;
+}
+.card {
+    border: 0.96px solid gray;
+    width: 349.39px;
+    height: 378.55px;
+    margin: 15px 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
