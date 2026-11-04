@@ -1,142 +1,99 @@
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: sans-serif;
-    color: #1a1a1a;
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-header {
-    background-color: #ffffff;
-    padding: 16px 24px;
-    border-bottom: 1px solid #e5e5e5;
+header{
+  background-color:  white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 40px;
 }
 
-.logo {
-    color: #1d4ed8;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 12px;
-}
-
-#produk {
-    background-color: #eff6ff;
-}
-
-.search input {
-    width: 100%;
-    padding: 10px 14px;
-    border: 1px solid #dddddd;
-    margin-bottom: 12px;
-}
-
-.navbar ul {
+nav li {
     list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.navbar ul li a{
-    text-decoration: none;
-}
-.navbar li {
-    padding: 4px 0;
-}
-
-.hero {
-    background-color: #1d4ed8;
-    color: aliceblue;
-    padding: 48px 24px;
-}
-
-.hero-text h1 {
-    font-size: 32px;
-    margin: 0 0 16px 0;
-}
-
-.hero-text p {
-    margin: 0 0 20px 0;
-}
-
-.tombol-belanja {
-    background-color: aliceblue;
-    color: #1d4ed8;
-    text-decoration: none;
-    border-radius: 20px;
+    color: #1a1a1a;
     font-weight: bold;
-    padding: 12px 26px;
 }
 
-.hero-gambar {
-    margin-top: 28px;
+nav li a{
+  text-decoration: none;
+}
+.logo{
+  color: #1d4ed8;
 }
 
-.catalog {
-    padding: 40px 24px;
+#produk{
+  background-color: #eff6ff;
+}
+
+#produk h1{
     text-align: center;
+    font-size: 32px;
 }
 
-#produk {
-    background-color: #eff6ff;
+.hero{
+  background-color: #1d4ed8;
+  color: aliceblue;
+  padding: 60px 40px;
 }
 
-.catalog h2 {
-    font-size: 24px;
-    margin: 0 0 28px 0;
+.hero h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.tombol-belanja{
+  background-color: aliceblue;
+  color: #1d4ed8;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 12px 24px;
+  display: inline-block;
+  margin-top: 15px;
 }
 
 .card {
-    background-color: #ffffff;
-    border: 1px solid gray;
-    max-width: 240px;
-    margin: 0 auto 20px auto;
-    padding: 18px;
-}
-
-.card h3 {
-    font-size: 16px;
-    margin: 12px 0 6px 0;
-}
-
-.harga {
-    color: #1d4ed8;
-    font-weight: bold;
-    margin: 0 0 14px 0;
-}
-
-.tombol-beli {
-    background-color: #1d4ed8;
-    color: aliceblue;
-    border: none;
-    padding: 10px 22px;
-    cursor: pointer;
-}
-
-.footer {
-    background-color: #f5f5f5;
-    color: #606060;
-    padding: 24px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 24px;
     text-align: center;
-    font-size: 14px;
 }
 
-.footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 12px 0 0 0;
+h3{
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
-.footer-links li {
-    margin: 6px 0;
+.tombol-beli{
+  background-color: #1d4ed8;
+  color: aliceblue;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.footer-links a {
-    color: rgb(96, 96, 96);
-    text-decoration: none;
+.footer{
+  background-color: #f5f5f5;
+  color: #606060;
+  padding: 40px;
+  text-align: center;
 }
+
+.footer-list li{
+  color: black;
+  list-style: none;
+}
+
+
+
+
+
